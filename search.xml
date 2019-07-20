@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[记 Python UnicodeDecodeError 修复]]></title>
+    <url>%2F2019%2F07%2F20%2F%E8%AE%B0-Python-UnicodeDecodeError-%E4%BF%AE%E5%A4%8D%2F</url>
+    <content type="text"><![CDATA[今天打开终端输入python ，回车，突然出现如下情况 123456789Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)] :: Anaconda, Inc. on win32Type "help", "copyright", "credits" or "license" for more information.Traceback (most recent call last): File "D:\Anaconda3\lib\site.py", line 439, in register_readline readline.read_history_file(history) File "D:\Anaconda3\lib\site-packages\pyreadline\rlmain.py", line 165, in read_history_file File "D:\Anaconda3\lib\site-packages\pyreadline\lineeditor\history.py", line 82, in read_history_file for line in open(filename, 'r'):UnicodeDecodeError: 'gbk' codec can't decode byte 0xa4 in position 117: illegal multibyte sequence 我里个去，二话没说，修理它 ！！！ 找到 open(filename, ‘r’) 改为 open(filename,’r’, encoding=’UTF-8’) Game Over.]]></content>
+      <tags>
+        <tag>Python</tag>
+        <tag>Bug</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F07%2F20%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>YChienHung&#39;s blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://ychienhung.github.io/"/>
+  <updated>2019-07-20T11:25:31.709Z</updated>
+  <id>https://ychienhung.github.io/</id>
+  
+  <author>
+    <name>YChienHung</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记 Python UnicodeDecodeError 修复</title>
+    <link href="https://ychienhung.github.io/2019/07/20/%E8%AE%B0-Python-UnicodeDecodeError-%E4%BF%AE%E5%A4%8D/"/>
+    <id>https://ychienhung.github.io/2019/07/20/记-Python-UnicodeDecodeError-修复/</id>
+    <published>2019-07-20T11:25:14.884Z</published>
+    <updated>2019-07-20T11:25:31.709Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="https://ychienhung.github.io/tags/Python/"/>
+    
+      <category term="Bug" scheme="https://ychienhung.github.io/tags/Bug/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://ychienhung.github.io/2019/07/20/hello-world/"/>
+    <id>https://ychienhung.github.io/2019/07/20/hello-world/</id>
+    <published>2019-07-20T11:21:37.158Z</published>
+    <updated>2019-07-20T11:23:39.823Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
