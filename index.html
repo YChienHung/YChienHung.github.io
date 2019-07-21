@@ -24,6 +24,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link rel="stylesheet" href="/lib/pace/pace-theme-center-atom.min.css?v=1.0.2">
+
 
 
 
@@ -84,6 +91,9 @@
       indexName: '',
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    emojis: {
+      className: 'github-emoji'
     },
     translation: {
       copy_button: '复制',
@@ -405,13 +415,23 @@
                 
               
 
-              <time title="创建时间：2019-07-20 19:25:14 / 修改时间：19:25:31" itemprop="dateCreated datePublished" datetime="2019-07-20T19:25:14+08:00">2019-07-20</time>
+              <time title="创建时间：2019-07-20 19:25:14" itemprop="dateCreated datePublished" datetime="2019-07-20T19:25:14+08:00">2019-07-20</time>
             </span>
           
 
           
             
 
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-21 10:10:30" itemprop="dateModified" datetime="2019-07-21T10:10:30+08:00">2019-07-21</time>
+              </span>
             
           
 
@@ -866,8 +886,6 @@ setInterval("createtime()",250);
 
   <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
 
-
-<!-- Hosted by <a target="_blank" rel="external nofollow" href="https://pages.github.com/"><b>GitHub Pages</b></a> -->
 
 
   <span class="post-meta-divider">|</span>

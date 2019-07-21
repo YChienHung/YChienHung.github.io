@@ -8,6 +8,7 @@ NexT.utils = {
   wrapImageWithFancyBox: function() {
     $('.content img')
       .not('#qr img')
+      .not('.group-picture img, .post-gallery img, img.' + CONFIG.emojis.className)
       .each(function() {
         var $image = $(this);
         var imageTitle = $image.attr('title') || $image.attr('alt');
