@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[DPlayer 调用测试]]></title>
+    <url>%2F2019%2F07%2F21%2FDPlayer-%E8%B0%83%E7%94%A8%E6%B5%8B%E8%AF%95%2F</url>
+    <content type="text"><![CDATA[使用 DPlayer 看逆战MV const dp = new DPlayer({ container: document.getElementById('dplayer'), autoplay: false, logo: '/images/avatar.png', volume: 0.7, video: { url: '/videos/demo.mp4', pic: '/images/1024x768-36.jpg', }, }); document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <tags>
+        <tag>-DPlayer</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[记 Python UnicodeDecodeError 修复]]></title>
     <url>%2F2019%2F07%2F20%2F%E8%AE%B0-Python-UnicodeDecodeError-%E4%BF%AE%E5%A4%8D%2F</url>
     <content type="text"><![CDATA[今天打开终端输入python ，回车，突然出现如下情况 123456789Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)] :: Anaconda, Inc. on win32Type "help", "copyright", "credits" or "license" for more information.Traceback (most recent call last): File "D:\Anaconda3\lib\site.py", line 439, in register_readline readline.read_history_file(history) File "D:\Anaconda3\lib\site-packages\pyreadline\rlmain.py", line 165, in read_history_file File "D:\Anaconda3\lib\site-packages\pyreadline\lineeditor\history.py", line 82, in read_history_file for line in open(filename, 'r'):UnicodeDecodeError: 'gbk' codec can't decode byte 0xa4 in position 117: illegal multibyte sequence 看日志应该是 history.py 中的文件出现了问题，马上修复。 找到 open(filename, ‘r’) 改为 open(filename,’r’, encoding=’UTF-8’) Game Over. ✌ 😄 document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ychienhung.github.io/"/>
-  <updated>2019-07-21T02:10:30.213Z</updated>
+  <updated>2019-07-21T12:21:34.371Z</updated>
   <id>https://ychienhung.github.io/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>DPlayer 调用测试</title>
+    <link href="https://ychienhung.github.io/2019/07/21/DPlayer-%E8%B0%83%E7%94%A8%E6%B5%8B%E8%AF%95/"/>
+    <id>https://ychienhung.github.io/2019/07/21/DPlayer-调用测试/</id>
+    <published>2019-07-21T09:40:54.000Z</published>
+    <updated>2019-07-21T12:21:34.371Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="-DPlayer" scheme="https://ychienhung.github.io/tags/DPlayer/"/>
+    
+  </entry>
+  
+  <entry>
     <title>记 Python UnicodeDecodeError 修复</title>
     <link href="https://ychienhung.github.io/2019/07/20/%E8%AE%B0-Python-UnicodeDecodeError-%E4%BF%AE%E5%A4%8D/"/>
     <id>https://ychienhung.github.io/2019/07/20/记-Python-UnicodeDecodeError-修复/</id>
     <published>2019-07-20T11:25:14.884Z</published>
-    <updated>2019-07-21T02:10:30.213Z</updated>
+    <updated>2019-07-21T09:41:38.510Z</updated>
     
     <summary type="html">
     
