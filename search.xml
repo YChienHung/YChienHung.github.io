@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[《平凡的世界》经典语句摘抄]]></title>
+    <url>%2F2019%2F07%2F23%2F%E3%80%8A%E5%B9%B3%E5%87%A1%E7%9A%84%E4%B8%96%E7%95%8C%E3%80%8B%E7%BB%8F%E5%85%B8%E8%AF%AD%E5%8F%A5%E6%91%98%E6%8A%84%2F</url>
+    <content type="text"><![CDATA[1.什么是人生？人生就是永不休止的奋斗！只有选定了目标并在奋斗中感到自己的努力没有虚掷，这样的生活才是充实的，精神也会永远年轻。 2.生活啊，生活！你有多少苦难，又有多少甘甜！天空不会永远阴暗，当乌云退尽的时候，蓝天上灿烂的阳光就会照亮大地。青草照样会鲜绿无比，花朵仍然会蓬勃开放。 3.即使有一天我要远走他乡，但愿我还能在梦中再回到这里来… 4.年轻是一个中性词，它代表着很多缺点：缺乏经验、少不更事、容易冲动。但是也有很多优点，其中之一就是有大把的时间去遗忘那些不该记住的事情。 5.这世上很多东西就是这样，他其实是同一种东西，但有的呢 他就像石墨，软的你可以把它捏成一团，有的坚硬的就像钻石，经过千锤百炼，散发着耀眼的光芒，更多的，平凡的就像这煤块了。 document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[关于自信那点事]]></title>
+    <url>%2F2019%2F07%2F23%2F%E5%85%B3%E4%BA%8E%E8%87%AA%E4%BF%A1%E9%82%A3%E7%82%B9%E4%BA%8B%2F</url>
+    <content type="text"><![CDATA[自信五要素 :1.自律2.成就3.健康4.学识5.认识自己 修炼方法 ： 多做自己擅长的事 不要抱怨，学会接受不完美的自己 走路时，挺直腰板，目视前方 去做一件简单，并且你能坚持的事情 利用自己的主观能动性–对自信的渴望 少说多做 注：以上内容来自 潘子Jane document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[DPlayer 调用测试]]></title>
     <url>%2F2019%2F07%2F21%2FDPlayer-%E8%B0%83%E7%94%A8%E6%B5%8B%E8%AF%95%2F</url>
     <content type="text"><![CDATA[使用 DPlayer 看逆战MV const dp = new DPlayer({ container: document.getElementById('dplayer'), autoplay: false, logo: '/images/avatar.png', volume: 0.7, video: { url: '/videos/demo.mp4', pic: '/images/1024x768-36.jpg', }, }); document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>

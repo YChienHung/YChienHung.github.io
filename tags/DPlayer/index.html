@@ -53,7 +53,9 @@
 
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="/css/main.css?v=7.2.0">
 
@@ -107,16 +109,21 @@
   };
 </script>
 
-  <meta name="description" content="This is a personal blog">
+<!-- APlayer -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+  <meta name="description" content="若能绽放光芒，你便是我的星辰。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="YChienHung&#39;s blog">
 <meta property="og:url" content="https://ychienhung.github.io/tags/DPlayer/index.html">
 <meta property="og:site_name" content="YChienHung&#39;s blog">
-<meta property="og:description" content="This is a personal blog">
+<meta property="og:description" content="若能绽放光芒，你便是我的星辰。">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="YChienHung&#39;s blog">
-<meta name="twitter:description" content="This is a personal blog">
+<meta name="twitter:description" content="若能绽放光芒，你便是我的星辰。">
 
 
 
@@ -458,7 +465,7 @@
     <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="YChienHung">
   
   <p class="site-author-name" itemprop="name">YChienHung</p>
-  <div class="site-description motion-element" itemprop="description">This is a personal blog</div>
+  <div class="site-description motion-element" itemprop="description">若能绽放光芒，你便是我的星辰。</div>
 </div>
 
 
@@ -468,7 +475,7 @@
         
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -663,16 +670,9 @@ setInterval("createtime()",250);
 <script type="text/javascript" src="\js\FunnyTitle.js"></script>
 <!-- 飘动的彩带 -->
 <script src="https://g.joyinshare.com/hc/piao.js" type="text/javascript"></script>
-
-<!-- 音频播放 -->
-<link rel="stylesheet" href="\lib\APlayer\APlayer.min.css">
-<div id="aplayer"></div>
-<script src="\lib\APlayer\APlayer.min.js"></script>
-<script type="text/javascript" src="\lib\APlayer\musicplayer.js"></script>
-
-<!--<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> -->
-<!--<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> -->
-<!--<script type="text/javascript" src="/js/fireworks.js"></script> -->
+<!--MusicPlayer-->
+<meting-js fixed="true" server="tencent" type="playlist" id="3578030853" loop="all" order="list" listfolded="false">
+</meting-js>
 
         
 
