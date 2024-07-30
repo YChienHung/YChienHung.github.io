@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    description: ' Yang Jianhong's Academic Page. Nice to meet you.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -35,7 +35,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "杨建宏"
+      text: "Yang Jianhong/杨建宏"
       # filename: "logo.svg"
     # Show a language chooser (if you have translated your site content)?
     show_translations: true
