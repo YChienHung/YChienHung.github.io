@@ -63,3 +63,5 @@ features:
     enable: true
   privacy_pack:
     enable: false
+
+citation_style: "mla"
