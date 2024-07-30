@@ -68,14 +68,14 @@
 
 
       {{ $featured := partial "functions/get_featured_image.html" . }}
-      <!-- {{/* Featured image layout */}} -->
+      {{/* Featured image layout */}}
       {{ if and $featured (not .Params.image.preview_only) }}
-      <!-- {{/* Fit image within max size. */}} -->
+      {{/* Fit image within max size. */}}
       {{ $image := $featured }}
 
-      <!-- {{/* Determine image placement. */}} -->
+      {{/* Determine image placement. */}}
       {{ $placement := .Params.image.placement | default 1 }}{{/* Default to full column width. */}}
-      <!-- {{/* Fit image to container's max width */}} -->
+      {{/* Fit image to container's max width */}}
       {{ $image_container := "" }}
       {{ if eq $placement 2}}
       {{ $image_container = "container" }}
