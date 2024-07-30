@@ -4,8 +4,8 @@ title: 'PolypMixNet: Enhancing semi-supervised polyp segmentation with polyp-awa
 authors:
 - Xiao Jia
 - Yutian Shen
-- Jianhong Yang
-- Ran Song
+- '**Jianhong Yang**'
+- 'Ran Song<sup>*</sup>'
 - Wei Zhang
 - Max Q-H Meng
 - Joseph C Liao
