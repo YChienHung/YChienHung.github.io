@@ -14,7 +14,7 @@ date: '2024-01-01'
 publishDate: '2024-07-30T02:06:01.955267Z'
 publication_types:
 - article-journal
-publication: '**Computers in Biology and Medicine**'
+publication: '*Computers in Biology and Medicine*'
 # publication_short: "CIBM"
 
 url_pdf: https://www.sciencedirect.com/science/article/pii/S0010482524000908
