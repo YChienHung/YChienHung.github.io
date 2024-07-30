@@ -40,7 +40,7 @@
   {{ else if $item.Params.publication }}
     {{- $item.Params.publication | markdownify -}},
   {{ end }}
-  {{- $item.Date.Format "2006" -}}.
+  {{- $item.Date.Format "2006" -}}
 
   {{ if $has_attachments }}
   <div class="flex space-x-3">

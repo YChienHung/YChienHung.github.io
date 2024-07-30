@@ -64,4 +64,6 @@ features:
   privacy_pack:
     enable: false
 
-citation_style: "mla"
+# Publication features
+publications:
+  citation_style: "mla"
