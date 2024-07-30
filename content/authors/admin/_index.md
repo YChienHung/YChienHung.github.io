@@ -64,7 +64,7 @@ education:
   - area: MEng Control Engineering
     institution: Shandong University
     date_start: 2023-09-01
-    date_end: 2026-06-30(expected)
+    date_end: 2026-06-30
     # summary: |
     #   GPA: 3.8/4.0
 
