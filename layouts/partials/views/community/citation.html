@@ -10,7 +10,7 @@
   <a href="{{ $item.RelPermalink }}" class="underline">{{ $item.Title }}</a>
   <br>
   <span class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" - $item | markdownify -}}
+    {{- partial "page_metadata_authors"  $item | markdownify -}}
   </span>
   <br>
   ({{- $item.Date.Format "2006" -}}).
@@ -32,7 +32,7 @@
   <a href="{{ $item.RelPermalink }}" class="underline">{{ $item.Title }}</a>
   <br>
   <span class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" - $item | markdownify -}}
+    {{- partial "page_metadata_authors" $item | markdownify -}}
   </span>
   <br>
   {{ if $item.Params.publication_short }}
