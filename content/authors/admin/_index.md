@@ -3,7 +3,7 @@
 title: 杨建宏
 
 # Name pronunciation (optional)
-name_pronunciation: Jian Hong Yang
+name_pronunciation: Yang Jian Hong
 
 # Full name (for SEO)
 first_name: Jian Hong

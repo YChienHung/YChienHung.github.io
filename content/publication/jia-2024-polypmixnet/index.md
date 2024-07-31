@@ -10,6 +10,11 @@ authors:
 - Max Q-H Meng
 - Joseph C Liao
 - Lei Xing
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
+- "Equal contribution"
+- "Corresponding author"
 date: '2024-01-01'
 publishDate: '2024-07-30T02:06:01.955267Z'
 publication_types:
