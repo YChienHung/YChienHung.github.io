@@ -37,6 +37,10 @@ header:
     logo:
       text: "杨建宏"
       # filename: "logo.svg"
+    button:
+      enable: true
+      text: "Get Started"
+      url: "https://hugoblox.com/templates/"
     # Show a language chooser (if you have translated your site content)?
     show_translations: true
     # If `show_translations` is enabled, do you wish to hide the current language name?
