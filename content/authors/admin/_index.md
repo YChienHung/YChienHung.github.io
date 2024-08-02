@@ -176,7 +176,7 @@ awards:
 
   - title: First-class Scholarship for Outstanding Students
     awarder: Shandong University of Science and Technology
-    date: 2020, 2021, 2022, 2023
+    date: 2020
 
 # Ministry of Education of the People's Republic of China
 # Outstanding Students Award, Shandong Province, 2016
