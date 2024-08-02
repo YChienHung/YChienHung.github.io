@@ -3,7 +3,7 @@
 title: 杨建宏
 
 # Name pronunciation (optional)
-name_pronunciation: Yang Chien Hung
+name_pronunciation: Chien Hung Yang
 
 # Full name (for SEO)
 first_name: Chien Hung
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Master Student
+role: MD Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -211,4 +211,4 @@ awards:
 
 ## About Me
 
-I'm Chein Hung Yang, a MD student in Control Engineering at [VSISLab](www.vsislab.com), School of Control Science and Engineering, Shandong University, advised by Prof. [Wei Zhang](brain.sdu.edu.cn/info/1092/1093.htm) and Researcher [Xiao Jia](faculty.sdu.edu.cn/jiaxiao/zh_CN/index.htm). I obtained my Bachelor’s degree in Robot Engineering at Shandong University of Science and Technology. During my undergraduate years, I worked with Prof. [Tao Sui](xindian.sdust.edu.cn/info/1045/1544.htm) and A.P.[Hui Wang](xindian.sdust.edu.cn/info/1032/2446.htm). My research interests include Artificial Intelligence, Medical Image Analysis and Representation Learning. I hope my work can reduce the pain of disease and improve people's happiness.
+I'm Chein Hung Yang, a MD student in Control Engineering at [VSISLab](www.vsislab.com), School of Control Science and Engineering, Shandong University, advised by Prof. [Wei Zhang](brain.sdu.edu.cn/info/1092/1093.htm) and Researcher [Xiao Jia](faculty.sdu.edu.cn/jiaxiao/zh_CN/index.htm). I obtained my Bachelor’s degree in Robotics Engineering at Shandong University of Science and Technology. During my undergraduate years, I worked with Prof. [Tao Sui](xindian.sdust.edu.cn/info/1045/1544.htm) and A.P. [Hui Wang](xindian.sdust.edu.cn/info/1032/2446.htm). My research interests include Artificial Intelligence, Medical Image Analysis and Representation Learning. I hope my work could reduce the pain of disease and improve people's happiness.
