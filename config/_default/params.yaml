@@ -38,7 +38,7 @@ header:
       text: "杨建宏"
       # filename: "logo.svg"
     button:
-      enable: true
+      enable: false
       text: "Get Started"
       url: "https://hugoblox.com/templates/"
     # Show a language chooser (if you have translated your site content)?

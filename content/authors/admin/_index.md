@@ -3,10 +3,10 @@
 title: 杨建宏
 
 # Name pronunciation (optional)
-name_pronunciation: Yang Jian Hong
+name_pronunciation: Yang Chien Hung
 
 # Full name (for SEO)
-first_name: Jian Hong
+first_name: Chien Hung
 last_name: Yang
 
 # Status emoji
