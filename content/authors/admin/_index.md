@@ -156,27 +156,27 @@ languages:
 awards:
   - title: Outstanding Graduates of Shandong Province
     awarder: Shandong Province
-    date: 2023
+    date: 2023-06-01
 
   - title: Top Ten Outstanding Students Award(Nominate)
     awarder: Shandong University of Science and Technology
-    date: 2022
+    date: 2022-10-01
 
   - title: National Scholarship
     awarder: China
-    date: 2022
+    date: 2022-10-01
   
   - title: Outstanding Students Award
     awarder: Shandong Province
-    date: 2022
+    date: 2022-05-01
 
   - title: National Encouragement Scholarship
     awarder: China
-    date: 2021
+    date: 2021-10-01
 
   - title: First-class Scholarship for Outstanding Students
     awarder: Shandong University of Science and Technology
-    date: 2020
+    date: 2020-10-01
 
 # Ministry of Education of the People's Republic of China
 # Outstanding Students Award, Shandong Province, 2016
