@@ -42,9 +42,9 @@ header:
       text: "Get Started"
       url: "https://hugoblox.com/templates/"
     # Show a language chooser (if you have translated your site content)?
-    show_translations: true
+    # show_translations: true
     # If `show_translations` is enabled, do you wish to hide the current language name?
-    hide_language_name: false
+    # hide_language_name: false
 
 # Site footer
 footer:
