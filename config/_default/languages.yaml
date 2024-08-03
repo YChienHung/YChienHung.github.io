@@ -11,13 +11,13 @@ en:
 # Uncomment the lines below to configure your website in a second language.
 zh:
  languageCode: zh-Hans
-  # contentDir: content/zh
+ contentDir: content # content/zh
  title: 杨建宏的学术主页
 #  params:
 #    description: Site description in Chinese...
  menu:
   main:
-    - name: Bio主页
+    - name: 主页
       url: /
       weight: 10
     - name: 论文
