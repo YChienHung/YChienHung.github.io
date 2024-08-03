@@ -9,29 +9,29 @@ en:
   #contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
-zh:
- languageCode: zh-Hans
- contentDir: content # content/zh
- title: 杨建宏的学术主页
+# zh:
+#  languageCode: zh-Hans
+#  contentDir: content/zh
+#  title: 杨建宏的学术主页
 #  params:
 #    description: Site description in Chinese...
- menu:
-  main:
-    - name: 主页
-      url: /
-      weight: 10
-    - name: 论文
-      url: /#papers
-      weight: 11
-    - name: 演讲
-      url: /#talks
-      weight: 12
-    - name: 新闻
-      url: /#news
-      weight: 13
-    - name: 经历
-      url: experience/
-      weight: 20
-    - name: 项目
-      url: projects/
-      weight: 30
+#  menu:
+#   main:
+#     - name: 主页
+#       url: /
+#       weight: 10
+#     - name: 论文
+#       url: /#papers
+#       weight: 11
+#     - name: 演讲
+#       url: /#talks
+#       weight: 12
+#     - name: 新闻
+#       url: /#news
+#       weight: 13
+#     - name: 经历
+#       url: experience/
+#       weight: 20
+#     - name: 项目
+#       url: projects/
+#       weight: 30
