@@ -42,8 +42,7 @@
       {{/* (time .date) | time.Format ($block.design.date_format | default "January 2006") */}}
       {{- $date_parts := split .date "," -}}
       {{- range $index, $part := $date_parts -}}
-        {{ printf "%s" $part }}
-        {{- if $index }}{{ "," }}{{ end -}}
+        {{- if $index }}{{ ", " }}{{ end -}}
         {{- (time $part) | time.Format ($block.design.date_format | default "January 2006") -}}
       {{- end -}}
     {{else}}
