@@ -39,7 +39,7 @@
   <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
     {{.awarder}} &#8729;
     {{ if .date}}
-      <!-- {{ (time .date) | time.Format ($block.design.date_format | default "January 2006") }} -->
+      {{/* (time .date) | time.Format ($block.design.date_format | default "January 2006") */}}
       {{- $date_parts := split .date "," -}}
       {{- range $index, $part := $date_parts -}}
         {{ printf "%s" $part }}
