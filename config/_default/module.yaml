@@ -23,6 +23,3 @@ mounts:
     target: layouts
   - source: assets
     target: assets
-  - source: layouts/partials/blox/
-    target: layouts/partials/blox/
-    includeFiles: '**.html'
