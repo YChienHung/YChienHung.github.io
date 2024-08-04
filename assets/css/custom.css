@@ -1,0 +1,8 @@
+.resume-biography .avatar {
+    width: 150px;
+    height: 150px;
+    max-width: 225px;
+    max-height: 225px;
+    -o-object-fit: cover;
+    object-fit:cover
+}

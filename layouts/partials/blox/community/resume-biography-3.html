@@ -43,10 +43,9 @@
     {{ if $avatar }}
 
     <div class="avatar-wrapper {{ if $img }}-mt-[105px]{{else}}mt-10{{end}}">
-      {{ $avatar_image := $avatar.Fill "150x150 Center" }}
+      {{ $avatar_image := $avatar.Fill "1024x1024 Center" }}
       <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"
-           width="150" height="150">
-      {{/* width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}" */}}
+           width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}">
       {{with $person.status.icon}}<span class="avatar-emoji">{{.|emojify}}</span>{{end}}
     </div>
     {{ end }}
