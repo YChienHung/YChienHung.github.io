@@ -6,7 +6,7 @@
 # Website name
 title: Chien Hung Yang
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: '.'
 
 ############################
 ## LANGUAGE
