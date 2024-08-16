@@ -3,10 +3,10 @@
 title: 杨建宏
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Hung Yang
+name_pronunciation: Chien-Hung Yang
 
 # Full name (for SEO)
-first_name: Chien Hung
+first_name: Chien-Hung
 last_name: Yang
 
 # Status emoji

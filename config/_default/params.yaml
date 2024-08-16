@@ -49,7 +49,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Chien Hung.Yang. This work is licensed under {license}'
+    notice: '© {year} Chien-Hung.Yang. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

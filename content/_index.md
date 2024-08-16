@@ -56,7 +56,7 @@ sections:
   - block: collection
     content:
       title: Recent Publications
-      text: ""
+      text: "1 Equal contribution, * Corresponding Author(s)"
       filters:
         folders:
           - publication
