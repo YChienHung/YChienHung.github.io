@@ -56,10 +56,31 @@ jobs:
         
         echo "host=$HOST" >> $GITHUB_OUTPUT
         echo "Deployment target: $HOST"
-
+        
+  # Clean up deployment
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Delete Deployment Environment
+      # You may pin to the exact commit or the version.
+      # uses: strumwolf/delete-deployment-environment@a4825dd9648c57da8437a4885c3fcad58beac69c
+        uses: strumwolf/delete-deployment-environment@v3.0.0
+        with:
+          # GitHub access token
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Environment to be deleted
+          environment: github-pages
+          # The `head_ref` or source branch name of the deployment to delete
+          # ref: # optional
+          # Only remove deployments, keep the environment. Defaults to false
+          onlyRemoveDeployments: True
+          # Only inactive deployments, keep the environment and deployments. Defaults to false
+          # onlyDeactivateDeployments: # optional
+          
   # Build website using reusable workflow (always runs for CI)
   build:
-    needs: config
+    needs: [config, cleanup]
     if: github.repository_owner != 'HugoBlox'
     uses: ./.github/workflows/build.yml
     secrets: inherit
