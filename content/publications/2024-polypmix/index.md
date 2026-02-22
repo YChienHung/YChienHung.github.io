@@ -23,7 +23,7 @@ publication: Computers in Biology and Medicine
 publication_short: Computers in Biology and Medicine
 links:
   - type: source
-    url: http://dx.doi.org/10.1016/j.compbiomed.2024.108006
+    url: http://doi.org/10.1016/j.compbiomed.2024.108006
   - type: code
     url: https://github.com/YChienHung/PolypMix
 featured: false
