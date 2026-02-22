@@ -26,5 +26,5 @@ links:
     url: http://doi.org/10.1016/j.compbiomed.2024.108006
   - type: code
     url: https://github.com/YChienHung/PolypMix
-featured: false
+featured: true
 ---

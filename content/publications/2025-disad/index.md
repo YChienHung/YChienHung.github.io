@@ -27,5 +27,5 @@ links:
     url: https://doi.org/10.1109/TBME.2026.3663181
   - type: code
     url: https://github.com/cnuzh/3D-DisAD
-featured: false
+featured: true
 ---
