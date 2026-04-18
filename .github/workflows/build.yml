@@ -62,7 +62,7 @@ jobs:
         sudo chmod +x /usr/local/bin/yq
         
         # Read hugo_version from hugoblox.yaml
-        VERSION=$(yq '.hugo_version // ""' hugoblox.yaml 2>/dev/null | grep -v '^null$' || true)
+        VERSION=$(yq '.build.hugo_version // ""' hugoblox.yaml 2>/dev/null | grep -v '^null$' || true)
         
         # Fallback to a known stable version if not specified
         DEFAULT_VERSION="0.154.5"
@@ -112,13 +112,17 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-hugo-resources-
 
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v5
+      
     - name: Build with Hugo
       env:
         HUGO_ENVIRONMENT: production
         HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify
+        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
     - name: Generate Pagefind search index (if applicable)
       run: |
