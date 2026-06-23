@@ -2,18 +2,18 @@ schema: "hugoblox/author/v1"
 slug: "me"
 is_owner: true
 name:
-  display: "Chien-Hung Yang"
-  given: "Chien-Hung"
+  display: "Jianhong Yang"
+  given: "Jianhong"
   family: "Yang"
   alternate: "杨建宏"
   pronunciation: ""
   pronouns: "he/him"
 postnominals:
-  - "MS"
+  - "PhD"
 status:
-  icon: "☕️"
-role: "MS Student"
-bio: "Chien-Hung Yang(杨建宏) is a MS student in Control Engineering at [VSISLab](http://www.vsislab.com), School of Control Science and Engineering, Shandong University, advised by Prof. [Wei Zhang](https://brain.sdu.edu.cn/info/1092/1093.htm) and Prof. [Xiao Jia](https://faculty.sdu.edu.cn/jiaxiao/zh_CN/index.htm). He obtained Bachelor’s degree in Robotics Engineering at Shandong University of Science and Technology."
+  icon: "🚀"
+role: "Ph.D. Student"
+bio: "Hi, my name is Jianhong Yang(杨建宏). I am currently a first-year Ph.D. student of the joint doctoral program between [University of Science and Technology of China](en.ustc.edu.cn) and [Eastern Institute of Technology, Ningbo](www.eitech.edu.cn/en), under the supervision of Prof. [Yifan Zhao](faculty.eitech.edu.cn/engineering/zyf_en/main.htm). Prior of this, I received my M.S. degree in Control Engineering from Shandong University, where I was a member of [VSISLab](www.vsislab.com) supervised by Prof. [Wei Zhang](brain.sdu.edu.cn/info/1092/1093.htm) and Prof. [Xiao Jia](faculty.sdu.edu.cn/jiaxiao/zh_CN/index.htm). I received my B.S. degree in Robotics Engineering from Shandong University of Science and Technology."
 affiliations:
   - name: "Shandong University"
     url: "https://www.en.sdu.edu.cn/"
@@ -31,17 +31,7 @@ interests:
   - "Generative Models"
   - "Medical Image Analysis"
   - "Representation Learning"
-
 education:
-  # - degree: "PhD Computer Science"
-  #   institution: "Stanford University"
-  #   start: "2015-09-01"
-  #   end: "2019-06-30"
-  #   summary: "Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.\n"
-  #   button:
-  #     text: "Download dissertation"
-  #     url: "/resume.pdf"
-  #     icon: "hero/arrow-down-tray"
   - degree: "MS Control Engineering"
     institution: "Shandong University"
     start: "2023-09-01"
@@ -89,36 +79,26 @@ languages:
     level: 4
     label: "Fluent"
 awards:
-  # - title: "Best Paper Award"
-  #   awarder: "NeurIPS"
-  #   date: "2022-12-01"
-  #   summary: "Awarded for groundbreaking work on efficient training of large models."
-  #   icon: "hero/trophy"
   - title: "Gidefa Graduate Scholarship"
     awarder: "Shandong University"
     date: "2024-10-01"
     icon: "hero/trophy"
-
   - title: "Outstanding Graduates of Shandong Province"
     awarder: "Shandong Province"
     date: "2023-06-01"
     icon: "hero/trophy"
-
   - title: "Top Ten Outstanding Students Award(Nominate)"
     awarder: "Shandong University of Science and Technology"
     date: "2022-10-01"
     icon: "hero/trophy"
-
   - title: "National Scholarship"
     awarder: "China"
     date: "2022-10-01"
     icon: "hero/trophy"
-
   - title: "Outstanding Students Award"
     awarder: "Shandong Province"
     date: "2022-05-01"
     icon: "hero/trophy"
-
 ids:
   orcid: "0009-0006-9244-331X"
   google_scholar: "KDvJpB4AAAAJ"
